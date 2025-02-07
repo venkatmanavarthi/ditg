@@ -174,5 +174,10 @@ We report in the following some guidelines specific for each supported operating
 
     - IPv6, DCCP and SCTP are currently not supported under OSX.
 
+  Docker
+  ---
+  
+    docker build -t ditg .
 
-
+    # help 
+    docker run -it --rm ditg -h
